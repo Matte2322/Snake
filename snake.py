@@ -23,6 +23,7 @@ try:
     Snakeo = Snake(0, 'square', 'black')
     Snakeo.determineSpeed()
     Snakeo.determineShape()
+    Snakeo.determineColor()
     snake.penup()
     Snakeo.determineCoord(0, 0)
 except:
